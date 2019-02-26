@@ -1,0 +1,60 @@
+# OS generated files #
+#########################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python generated files #
+#########################
+.mypy_cache/
+__pycache__
+
+# Go generated files #
+#########################
+/go/vendor/*/
+/go/vendor/.deps.stamp
+/go/**/mock_*/
+
+# vim generated files #
+#########################
+.*.sw?
+
+# VSCode folder
+#########################
+.vscode/
+
+# build files
+#########################
+.installstamp
+*.d
+
+# Docker working directory
+##########################
+/docker/_build/
+/docker/perapp/hashes/
+
+# Test coverage
+##########################
+/.coverage
+/python/htmlcov/
+/go/gocover.html
+
+# C library binaries
+##########################
+*.a
+*.o
+*.so
+
+# Generated executables
+##########################
+/bin/*
+!/bin/.keepme
+
+# CTags
+##########################
+tags
+
